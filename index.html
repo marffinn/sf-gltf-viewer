@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="/sf-gltf-viewer/assets/index-DCH4qyRQ.js"></script>
+  <script type="module" crossorigin src="/sf-gltf-viewer/assets/index-drIWWVpK.js"></script>
   <link rel="stylesheet" crossorigin href="/sf-gltf-viewer/assets/index-DLAA1PYe.css">
 </head>
 
@@ -52,9 +52,10 @@
                     <span class="text-indigo-400">Click to upload</span>
                     <span class="text-slate-300">or drag &amp; drop</span>
                 </p>
-                <p class="text-xs text-slate-500 mt-1">.glb or .gltf files</p>
+                <p class="text-xs text-slate-500 mt-1">.glb, .gltf, or .obj (+ .mtl &amp; textures)</p>
             </div>
-            <input id="fileInput" type="file" accept=".glb,.gltf,model/gltf-binary,model/gltf+json"
+            <input id="fileInput" type="file" multiple
+                accept=".glb,.gltf,.obj,.mtl,.png,.jpg,.jpeg,.bmp,.tga,.webp,model/gltf-binary,model/gltf+json"
                 class="absolute inset-0 opacity-0 cursor-pointer" />
         </div>
 
@@ -93,7 +94,7 @@
         <div class="px-10 py-8 rounded-3xl border-2 border-dashed border-indigo-400
                     bg-slate-900/80 text-center">
             <p class="text-2xl font-semibold text-white">Drop your model to load</p>
-            <p class="text-sm text-slate-400 mt-1">.glb or .gltf</p>
+            <p class="text-sm text-slate-400 mt-1">.glb, .gltf, or .obj (+ .mtl &amp; textures)</p>
         </div>
     </div>
 
