@@ -1,0 +1,32 @@
+{
+  "name": "sf-gltf-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marffinn/sf-gltf-viewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marffinn/sf-gltf-viewer/issues"
+  },
+  "homepage": "https://github.com/marffinn/sf-gltf-viewer#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^8.0.10"
+  },
+  "type": "module"
+}
