@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/marffinn/sf-gltf-viewer#readme",
   "dependencies": {
-    "jquery": "^3.6.0",
+    "jquery": "^4.0.0",
     "three": "^0.184.0"
   },
   "devDependencies": {
